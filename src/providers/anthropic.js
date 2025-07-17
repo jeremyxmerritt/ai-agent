@@ -6,7 +6,7 @@ class AnthropicProvider {
     this.client = new Anthropic({
       apiKey: config.anthropic.apiKey,
     });
-    this.model = 'claude-3-5-sonnet-20241022';
+    this.model = 'claude-sonnet-4-20250514';
     this.maxTokens = 4000;
   }
 

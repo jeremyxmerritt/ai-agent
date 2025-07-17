@@ -53,8 +53,8 @@ class AgentOrchestrator {
 
   enhancePromptForTaskType(taskType, prompt) {
     const taskEnhancements = {
-      analysis: 'You are an expert analyst. Analyze the following information thoroughly and provide detailed insights:',
-      writing: 'You are a skilled writer. Create well-structured, engaging content based on the following:',
+      analysis: 'You are an expert analyst. Analyze the following information thoroughly and provide detailed insights for someone who is looking for a new job:',
+      writing: 'You are a skilled writer. Create well-structured, concise content based on the following:',
       research: 'You are a research assistant. Provide comprehensive research findings and recommendations based on:'
     };
 
